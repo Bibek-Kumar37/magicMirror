@@ -30,7 +30,7 @@ window.addEventListener('load', () => {
 
                     const iconUrl = `http://openweathermap.org/img/wn/${icon}@2x.png`;
 
-                    windSpeed.textContent = `${speed}`;
+                    windSpeed.textContent = `${speed} Km/H`;
                     iconImg.src = iconUrl;
                     feelsLikeTemp.textContent = `${feels_like}`;
 

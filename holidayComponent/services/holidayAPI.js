@@ -1,2 +1,2 @@
-export const apiKey = 'fXnunKDwkLncr03fkuHHlXCbP929sKJ9';
+export const apiKey = '9Bn838i1Kw2ES52PuOKh5dgSJr1urmIU';
 export const countryCode = 'IN';
