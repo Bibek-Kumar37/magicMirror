@@ -35,8 +35,13 @@ window.addEventListener('load', () => {
   startListening();
 });
 
-const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+let SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+// Check if SpeechRecognition is supported
 const recognition = new SpeechRecognition();
+console.log(recognition);
+    // Now you can use recognition object
+
 
 function startListening() {
   recognition.onresult = (event) => {
